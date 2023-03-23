@@ -8,4 +8,14 @@ $(document).ready(function () {
       arrows: false,
          dots: false,
     });
+    $(document).ready(function () {
+      $(".menu1").click(function () {
+        $('.mobile-menu').show('slide, right, 500');
+        $('.overlay').show('slide, right, 500');
+      });
+      $(".close, .overlay").click(function () {
+        $('.mobile-menu').hide('slide, right, 500');
+        $('.overlay').hide('slide, right, 500');
+      });
+    });
   });
