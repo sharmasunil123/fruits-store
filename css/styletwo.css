@@ -771,6 +771,7 @@ background-color: #eeeeee;
     display: none;
   }
   .logo img {
+    width: 120px;
     height: 24px;
   }
   /* .logo{
